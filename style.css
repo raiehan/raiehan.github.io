@@ -36,7 +36,7 @@ nav {
 /*-SPLASH PAGE START-*/
 
 #home {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/WO8W4ZTI7M.jpg') no-repeat center center fixed;
+    background: url(/img/wallpaper.jpg) no-repeat center center fixed;
     background-position: center;
     background-size: cover;
     height: 100vh;
