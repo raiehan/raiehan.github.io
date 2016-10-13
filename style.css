@@ -120,5 +120,12 @@ h4 {
     text-align: justify;
 }
 
+#programs {
+    border: 1px solid #f9f9f9;
+    padding-left: -200px;
+    padding-right: -200px;
+    
+}
+
 
 /*- About Section End -*/
