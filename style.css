@@ -1,0 +1,89 @@
+/* Styles go here */
+
+html {}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    background-color: rgba(45, 45, 45, 0.5);
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+.nav-wrapper {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#logo-img {
+    height: 50px;
+    margin: auto;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+/*-SPLASH PAGE START-*/
+
+#home {
+    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/WO8W4ZTI7M.jpg') no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
+}
+
+#splash {
+    height: 100vh;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
+}
+
+#splash-text {
+    /*    display: table-cell;*/
+    vertical-align: middle;
+    color: #f9f9f9;
+    text-shadow: 1px 1px 1px grey;
+}
+
+#splash-text > h1,
+h4 {
+    line-height: 0.9;
+}
+
+#splash-text > h1 {
+    font-size: 3em;
+}
+
+#splash-text > h4 {
+    font-size: 1.6em;
+}
+
+#splash-text > h2 {
+    font-size: 2em;
+}
+
+#splash-text a {
+    text-decoration: none;
+    color: white;
+}
+
+#chevron-down {
+    font-size: 3em;
+}
+
+/*-SPLASH PAGE END-*/
