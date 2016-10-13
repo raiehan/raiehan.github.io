@@ -14,6 +14,10 @@ nav {
     position: absolute;
 }
 
+.sideNav {
+    background-color: #8e8e8e;
+}
+
 .nav-wrapper {
     max-width: 960px;
     margin: auto;
