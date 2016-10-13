@@ -89,3 +89,26 @@ h4 {
 
 
 /*-SPLASH PAGE END-*/
+
+
+/*- About Section Start -*/
+
+#about {
+    background-color: cornflowerblue;
+}
+
+#about > .container > h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#about > .container > h4 > span {
+    background: cornflowerblue;
+    padding: 0 10px;
+}
+
+
+/*- About Section End -*/
