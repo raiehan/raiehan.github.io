@@ -1,7 +1,7 @@
 /* Styles go here */
 
-html {}
 
+html,
 body {
     font-family: "proxima-nova", sans-serif;
 }
@@ -63,7 +63,7 @@ nav {
     vertical-align: middle;
     color: #f9f9f9;
     text-shadow: 1px 1px 1px grey;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 #splash-text > h1,
