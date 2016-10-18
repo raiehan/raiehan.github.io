@@ -15,7 +15,6 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="style.css" />
@@ -70,6 +69,7 @@
     </div>
     <div class="section" id="work">
         <div class="container">
+            <br>
             <h4 class="center"><span>Work</span>        
             </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -79,7 +79,13 @@
         <div class="container">
             <h4 class="center">
                 Contact
-            </h4> </div>
+            </h4>
+            <form method="POST" action="http://formspree.io/penarroyor@gmail.com">
+                <input type="email" name="email" placeholder="Your email">
+                <textarea name="message" placeholder="Your message here" id="textarea" class="materialize-textarea"></textarea>
+                <button class="btn-flat waves-effect waves-light" type="submit">Send</button>
+            </form>
+        </div>
     </div>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

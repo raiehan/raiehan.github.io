@@ -8,7 +8,17 @@ body {
 
 p {
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
+}
+
+.btn-flat {
+    color: #f9f9f9;
+    background-color: cornflowerblue;
+}
+
+.btn-flat:hover {
+    background-color: #4b70b2;
+    color: #f9f9f9;
 }
 
 nav {
@@ -135,5 +145,26 @@ h4 {
     margin-top: 30px;
 }
 
-
 /*- About Section End -*/
+
+/*- Work Section Start -*/
+
+#work {
+    background-color: cadetblue;
+    color: #f9f9f9;
+}
+
+#work > .container > h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f9f9f9;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#work > .container > h4 > span {
+    background: cadetblue;
+    padding: 0 10px;
+}
+
+/*- Work Section End -*/
