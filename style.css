@@ -1,6 +1,5 @@
 /* Styles go here */
 
-
 html,
 body {
     font-family: "Montserrat", sans-serif;
@@ -131,8 +130,6 @@ h4 {
     padding: 0 10px;
 }
 
-
-
 #programs {
     height: 100px;
     width: 100px;
@@ -145,7 +142,9 @@ h4 {
     margin-top: 30px;
 }
 
+
 /*- About Section End -*/
+
 
 /*- Work Section Start -*/
 
@@ -168,7 +167,7 @@ h4 {
 }
 
 #contact {
-     background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 #contact > .container > h4 {
@@ -182,6 +181,25 @@ h4 {
 #contact > .container > h4 > span {
     background: #f9f9f9;
     padding: 0 10px;
+}
+
+#gd-button {
+    margin: auto;
+    display: flex;
+}
+
+#gd-button > a {
+    color: white;
+    text-decoration: none;
+}
+
+#gd-hr,
+#videography-hr {
+    width: 100px;
+}
+
+#video-section, #gd-section {
+    padding-bottom: 20px;
 }
 
 /*- Work Section End -*/
